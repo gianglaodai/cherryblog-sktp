@@ -4,23 +4,24 @@
 
 <header>
   <nav class="mb-10 py-8 shadow-[0_0_2em_rgba(0,0,0,0.1)]">
-    <ul class="flex justify-center gap-8 text-xl">
-      <li class="text-orange-600 underline decoration-orange-600 decoration-2 underline-offset-4">
+    <ul
+      class="flex flex-wrap justify-center space-x-8 text-xl *:p-2 *:underline *:decoration-2 *:underline-offset-4">
+      <li class="text-orange-600 hover:font-bold hover:decoration-4">
         <a href="/">HOME</a>
       </li>
-      <li class="text-blue-700 underline decoration-blue-700 decoration-2 underline-offset-4">
+      <li class="text-blue-700 hover:font-bold hover:decoration-4">
         <a href="/articles">ARTICLES</a>
       </li>
-      <li class="text-pink-600 underline decoration-pink-600 decoration-2 underline-offset-4">
+      <li class="text-pink-600 hover:font-bold hover:decoration-4">
         <a href="/about">ABOUT ME</a>
       </li>
-      <li class="text-teal-700 underline decoration-teal-700 decoration-2 underline-offset-4">
+      <li class="text-teal-700 hover:font-bold hover:decoration-4">
         <a href="/contact">CONTACT</a>
       </li>
     </ul>
   </nav>
 </header>
-<main class="mt-24">
+<main class="mt-20">
   <slot />
 </main>
 <footer class="pt-10">

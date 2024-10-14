@@ -11,12 +11,12 @@
   </div>
   <div class="mt-12 items-center justify-center space-y-3 sm:flex sm:space-x-6 sm:space-y-0">
     <a
-      href="javascript:void(0)"
+      href="/"
       class="block w-full rounded-md bg-indigo-600 px-10 py-3.5 text-center text-white shadow-md sm:w-auto">
       Get started
     </a>
     <a
-      href="javascript:void(0)"
+      href="/"
       class="block w-full rounded-md border px-10 py-3.5 text-center text-gray-500 duration-300 hover:text-indigo-600 hover:shadow sm:w-auto">
       Try it out
     </a>
@@ -35,7 +35,7 @@
     </div>
     <div class="mt-4">
       <a
-        href="javascript:void(0)"
+        href="/"
         class="inline-block rounded-lg bg-gray-800 px-4 py-2 font-medium text-white shadow-md duration-150 hover:bg-gray-700 hover:shadow-none active:bg-gray-900">
         Get started
       </a>

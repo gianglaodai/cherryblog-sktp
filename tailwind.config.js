@@ -57,22 +57,12 @@ const config = {
       },
       fontFamily: {
         sans: [...fontFamily.sans]
+      },
+      fontSize: {
+        title: 'clamp(2.827rem, 1rem + 5vw, 6rem)'
       }
     }
-  },
-  plugins: [
-    plugin(({ matchUtilities, theme }) => {
-      matchUtilities({
-        clamp(value) {
-          const sizes = theme('fontSize');
-          const split = value.split('-').map((v) => (sizes[v] ? sizes[v]['0'] : v));
-          return {
-            fontSize: `clamp(${split[0]}, ${split[1]}, ${split[2]})`
-          };
-        }
-      });
-    })
-  ]
+  }
 };
 
 export default config;
